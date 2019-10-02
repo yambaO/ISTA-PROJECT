@@ -10,7 +10,9 @@ Date: Sep 15 , 2019
 
 TITLE :Download the application 
 DESCRIPTION: The user should find the downloadable application in any application store  at no cost. The user should make sure there is internet connectivity in the device used.
+
 RATIONAL : In order to download the application.
+
 DEPENDENCY: None
 
 #### Functional requirement 2

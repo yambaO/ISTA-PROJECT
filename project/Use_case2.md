@@ -18,7 +18,7 @@ Date: Sep 08, 2019
 #### Preconditions
 
 - The cook must have an electronics device to interact with the application.
-- The electronic device must have access to  internet for the cook to be able to navigate through the application.
+- The electronic device must have access to  internet for the cook to be able to navigate       through the application.
 - The user  must log in  his account.
 - The user must click on the tab "Add a recipe"
 - The user must enter all the information related to the recipe

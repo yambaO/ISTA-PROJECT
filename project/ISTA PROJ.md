@@ -20,12 +20,18 @@ Date: August 12, 2019
 A list of recipes grouped into different type of cuisines will be available for the cook to choose.
 
 #### Main Flow 
-​    1.The cook access the application  by signing up  in their account 
+​    1.The cook access the application  by signing up  in their account
+ 
 ​    2.The  cook will open an account in case he does not one
+
 ​    3.The cook will select the tab "Type of Cuisine" 
+
 ​    4.The application will show a list of different cuisines.
+
 ​    5.The cook will choose a preferred cuisine from the list cuisine
-​    6.The application will then display on the device's screen , a variety of recipes in the type of the chosen 
+
+​    6.The application will then display on the device's screen , a variety of recipes in the type of the chosen
+ 
 
 #### Alternate Flows
  A. The cook can not find the exact recipe that they are looking for.

@@ -30,10 +30,13 @@ After the use case is completed the user can add another recipe , delete the add
 #### Main Flow 
 
 ​    1.The user log in their account.
+
 ​    2.The user clicks on the button Add a recipe.
 
 ​    3.The user selects from the drop down the type of cuisine in which the recipe belongs too.
+
 ​    4.The user inputs information such as recipe's name.
+
 ​    5.The user inputs the amount needed of the first  ingredient .
 
 ​    6.The user selects the specific ingredient  from the dropdown list.

@@ -1,0 +1,28 @@
+﻿@model IEnumerable<RecipeApp.Models.TypeOfCuisines>
+
+@{
+    ViewBag.Title = "Cuisines in the world";
+}
+
+   
+
+    <p>
+
+        <button class="btn btn-success white-text">@Html.ActionLink("Create New", "Create")</button>
+        <button class="btn btn-danger white-text"> @Html.ActionLink("Delete", "Delete")</button>
+    </p>
+<div class="row">
+    @foreach (var item in Model)
+    {
+
+        <div class="thumbnail col-sm-6 col-md-4">
+            <img src="" class="img-rounded" alt="">
+            <div class="caption">
+                <h3><strong>@Html.DisplayFor(modelItem => item.CuisineName)</strong></h3>
+
+
+                <p>@Html.ActionLink("View", "Details", new { id = item.Id })</p>
+            </div>
+        </div>
+    }
+</div>

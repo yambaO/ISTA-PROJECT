@@ -1,0 +1,41 @@
+﻿@model RecipeApp.Models.Recipes
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="page-header">
+    <h1>@Html.DisplayFor(model => model.RecipeName) <small>@Html.DisplayFor(model => model.Cuisine.CuisineName)</small></h1>
+    <button class="btn btn-link"><span class="glyphicon glyphicon-chevron-left"></span> @Html.ActionLink("Back to List", "Index")</button>
+    <button class="btn btn-success white-text"><span class="glyphicon glyphicon-edit"></span> @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "white-text" })</button>
+    <button class="btn btn-danger white-text"><span class="glyphicon glyphicon-trash"></span> @Html.ActionLink("Delete", "Delete", new { id = Model.Id }, new { @class = "white-text" })</button>
+</div>
+
+<div class="col-md-6">
+    <p><strong>@Html.DisplayNameFor(model => model.PreparationInstructions)</strong> <br /></p>
+    <p> @Html.Raw(Model.PreparationInstructions)</p>
+</div>
+
+<div class="col-md-6">
+    <div>
+        <p><strong>Listed by:</strong> @Html.DisplayFor(model => model.CreatedBy.UserName)</p>
+
+        <p><strong>@Html.DisplayNameFor(model => model.Description)</strong> <br /> @Html.DisplayFor(model => model.Description)</p>
+
+        <p><strong>@Html.DisplayNameFor(model => model.Servings)</strong> <br /> @Html.DisplayFor(model => model.Servings)</p>
+
+        <p><strong>@Html.DisplayNameFor(model => model.Time)</strong> <br /> @Html.DisplayFor(model => model.Time)</p>
+
+        <p><strong>@Html.DisplayNameFor(model => model.DateAdded)</strong> <br />@Html.DisplayFor(model => model.DateAdded)</p>
+
+        <p><strong>@Html.DisplayNameFor(model => model.Ingredients)</strong></p>
+        <div>
+            <ul>
+                @Html.Raw(Model.Ingredients)
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+
